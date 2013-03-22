@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "tourwrist-ios-sdk"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "iOS SDK for in-house TourWrist app and 3rd party apps."
   s.description  = <<-DESC
                       SDK for TourWrist.
@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
   s.license      = "PRIVATE NO TOUCHY"
   s.homepage     = "https://github.com/sparklabs/tourwrist-ios-sdk"
   s.author       = { "Brian Foshee" => "brianfoshee@gmail.com" }
-  s.source       = { :git => "https://github.com/sparklabs/tourwrist-ios-sdk.git", :tag => "1.0.5" }
+  s.source       = { :git => "https://github.com/sparklabs/tourwrist-ios-sdk.git", :tag => "1.0.6" }
   s.platform     = :ios, '6.0'
   s.requires_arc = true
   s.source_files = 'tourwrist-ios-sdk/**/*.{h,m}'
-  # s.public_header_files = 'TWSessionManager.h', 'Pano.h', 'Tour.h', 'Category.h','User.h', 'TWPanoViewerController.h'
+  s.public_header_files = 'tourwrist-ios-sdk/models/TWSessionManager.h', 'tourwrist-ios-sdk/models/Pano.h', 'tourwrist-ios-sdk/models/Tour.h', 'tourwrist-ios-sdk/models/Category.h','tourwrist-ios-sdk/models/User.h', 'tourwrist-ios-sdk/controllers/TWPanoViewerController.h'
   
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
   # s.libraries = 'iconv', 'xml2'
