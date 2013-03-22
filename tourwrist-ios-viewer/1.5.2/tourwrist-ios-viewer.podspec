@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source_files = '*.{h,m}'
   s.public_header_files = 'TourView.h', 'OrientationManager.h', 'Annotation.h'
+  s.frameworks   = "OpenGLES"
   s.requires_arc = false
 end
