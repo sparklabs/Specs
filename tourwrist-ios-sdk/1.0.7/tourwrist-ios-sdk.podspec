@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "PRIVATE NO TOUCHY"
   s.homepage     = "https://github.com/sparklabs/tourwrist-ios-sdk"
   s.author       = { "Brian Foshee" => "brianfoshee@gmail.com" }
-  s.source       = { :git => "https://github.com/sparklabs/tourwrist-ios-sdk.git", :tag => "1.0.6" }
+  s.source       = { :git => "https://github.com/sparklabs/tourwrist-ios-sdk.git", :tag => "1.0.7" }
   s.platform     = :ios, '6.0'
   s.requires_arc = true
   s.source_files = 'tourwrist-ios-sdk/**/*.{h,m}'
