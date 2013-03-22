@@ -14,15 +14,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'tourwrist-ios-sdk/**/*.{h,m}'
   s.public_header_files = 'tourwrist-ios-sdk/models/TWSessionManager.h', 'tourwrist-ios-sdk/models/Pano.h', 'tourwrist-ios-sdk/models/Tour.h', 'tourwrist-ios-sdk/models/Category.h','tourwrist-ios-sdk/models/User.h', 'tourwrist-ios-sdk/controllers/TWPanoViewerController.h'
-  
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.libraries = 'iconv', 'xml2'
-
-  # If you need to specify any other build settings, add them to the
-  # xcconfig hash.
-  #
-  # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-   s.prefix_header_contents = <<-EOS
+  s.prefix_header_contents = <<-EOS
    #ifdef DEBUG
    #define DebugLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
    #else

@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Brian Foshee" => "brianfoshee@gmail.com" }
   s.source       = { :git => "git@github.com:sparklabs/tourwrist-ios-viewer.git", :tag => "1.5.3" }
   s.platform     = :ios, '6.0'
-  s.source_files = '*.{h,m}'
+  s.source_files = '*.{h,m,c}'
   s.public_header_files = 'TourView.h', 'OrientationManager.h', 'Annotation.h'
   s.frameworks   = "OpenGLES"
   s.requires_arc = false
