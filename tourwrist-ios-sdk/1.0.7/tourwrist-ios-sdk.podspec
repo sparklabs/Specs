@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "tourwrist-ios-sdk"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "iOS SDK for in-house TourWrist app and 3rd party apps."
   s.description  = <<-DESC
                       SDK for TourWrist.
@@ -31,5 +31,5 @@ Pod::Spec.new do |s|
   EOS
   s.dependency 'AFNetworking', '~> 1.1.0'
   s.dependency 'KeychainItemWrapper', '~> 1.2'
-  s.dependency 'tourwrist-ios-viewer', '~> 1.5.2'
+  s.dependency 'tourwrist-ios-viewer', '~> 1.5.3'
 end

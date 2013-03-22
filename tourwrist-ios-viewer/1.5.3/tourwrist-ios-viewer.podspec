@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "tourwrist-ios-viewer"
-  s.version      = "1.5.2"
+  s.version      = "1.5.3"
   s.summary      = "OpenGL viewer for panos - used in the iOS SDK."
   s.license      = "PRIVATE NO TOUCHY"
   s.homepage     = "git@github.com:sparklabs/tourwrist-ios-viewer.git"
