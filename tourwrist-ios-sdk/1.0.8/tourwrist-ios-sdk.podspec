@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.requires_arc = true
   s.source_files = 'tourwrist-ios-sdk/**/*.{h,m}'
-  s.public_header_files = 'tourwrist-ios-sdk/models/TWSessionManager.h', 'tourwrist-ios-sdk/models/Pano.h', 'tourwrist-ios-sdk/models/Tour.h', 'tourwrist-ios-sdk/models/Category.h','tourwrist-ios-sdk/models/User.h', 'tourwrist-ios-sdk/controllers/TWPanoViewerController.h'
   s.prefix_header_contents = <<-EOS
    #ifdef DEBUG
    #define DebugLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
