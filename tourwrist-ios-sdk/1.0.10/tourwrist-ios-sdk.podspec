@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "tourwrist-ios-sdk"
-  s.version      = "1.0.9"
+  s.version      = "1.0.10"
   s.summary      = "iOS SDK for in-house TourWrist app and 3rd party apps."
   s.description  = <<-DESC
                       SDK for TourWrist.
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = "PRIVATE NO TOUCHY"
   s.homepage     = "https://github.com/sparklabs/tourwrist-ios-sdk"
   s.author       = { "Brian Foshee" => "brianfoshee@gmail.com" }
-  s.source       = { :git => "git@github.com:sparklabs/tourwrist-ios-sdk.git", tag: "1.0.9" }
+  s.source       = { :git => "git@github.com:sparklabs/tourwrist-ios-sdk.git", tag: "1.0.10" }
   s.platform     = :ios, '6.0'
   s.requires_arc = true
   s.source_files = 'tourwrist-ios-sdk/**/*.{h,m}'
